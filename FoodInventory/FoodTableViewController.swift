@@ -7,7 +7,7 @@
 //
 
 import UIKit
- var CurUser = User(UserName: "test")
+var CurUser = User(UserName: "test")
 var CurIndex = 0
 class FoodTableViewController: UITableViewController {
     
@@ -18,7 +18,6 @@ class FoodTableViewController: UITableViewController {
     // MARK: TableView Delegate Methods
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return CurUser.UserItems.count
-   
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
