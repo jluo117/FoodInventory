@@ -20,5 +20,17 @@ class User{
             let userInfo = value?["UserName"] as? String ?? ""
             self.UserName = userInfo
         })
+        ref.child("UserData").child("TestUser").child("food").observe(.value) { snapshot in
+            for child in (snapshot.children.allObjects as? [DataSnapshot])! {
+                print(child.value)
+                let value = child.value as! NSDictionary
+                let foodName = value["name"] as? String ?? ""
+                let warning = value["WarningNumber"] as? Int ?? 0
+                let amount = value["amount"] as? Int ?? 0
+                let loadedItem = UserItem(ItemName: foodName, WarningNumber: warning)
+                loadedItem.ItemCount = amount
+                self.UserItems.append(loadedItem)
+            }
+        }
     }
 }
