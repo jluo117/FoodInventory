@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/timothyng/Desktop/FoodInventory/FoodInventory/NewFoodViewController.swift">
+   </FileRef>
+   <FileRef
       location = "group:FoodInventory.xcodeproj">
    </FileRef>
    <FileRef

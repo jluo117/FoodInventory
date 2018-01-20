@@ -10,6 +10,12 @@
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue</string>
+            <string>HelveticaNeue-Bold</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--Shop-->
         <scene sceneID="1uy-iH-27G">
@@ -29,7 +35,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add Inventory" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YH2-Uh-4xa">
-                                <rect key="frame" x="127" y="132" width="120" height="21"/>
+                                <rect key="frame" x="127" y="132" width="121" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -105,6 +111,118 @@
             </objects>
             <point key="canvasLocation" x="1156" y="149"/>
         </scene>
+        <!--Add Food Picker VC-->
+        <scene sceneID="q5F-xn-VR2">
+            <objects>
+                <viewController storyboardIdentifier="addFoodPickerVC" title="Add Food Picker VC" id="W7n-7s-8Fs" customClass="FoodPickerViewController" customModule="FoodInventory" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="s9s-0D-xZ9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="flR-Yr-53v">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ba0-Zv-BV0">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="323.5"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="25"/>
+                                        <state key="normal" title="Add food item manually" backgroundImage="button-bg-manual">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="manualPressed:" destination="W7n-7s-8Fs" eventType="touchUpInside" id="IV7-Jo-QZ1"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fth-DW-oto">
+                                        <rect key="frame" x="0.0" y="323.5" width="375" height="323.5"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="25"/>
+                                        <state key="normal" title="Choose from store" backgroundImage="button-bg-store">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="storePressed:" destination="W7n-7s-8Fs" eventType="touchUpInside" id="NHe-VA-ml0"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="flR-Yr-53v" firstAttribute="leading" secondItem="bL2-jA-D79" secondAttribute="leading" id="6Ly-rF-7DQ"/>
+                            <constraint firstItem="flR-Yr-53v" firstAttribute="top" secondItem="bL2-jA-D79" secondAttribute="top" id="MUm-b5-onM"/>
+                            <constraint firstItem="bL2-jA-D79" firstAttribute="trailing" secondItem="flR-Yr-53v" secondAttribute="trailing" id="QrD-7s-Vuz"/>
+                            <constraint firstItem="bL2-jA-D79" firstAttribute="bottom" secondItem="flR-Yr-53v" secondAttribute="bottom" id="UKi-N6-cef"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="bL2-jA-D79"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m7a-cB-OAT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1879" y="149"/>
+        </scene>
+        <!--New Food View Controller-->
+        <scene sceneID="W04-BL-MRX">
+            <objects>
+                <viewController storyboardIdentifier="newFoodVC" id="agr-0O-4oc" customClass="NewFoodViewController" customModule="FoodInventory" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="N4Y-e8-I7I">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6ba-cc-1kd">
+                                <rect key="frame" x="0.0" y="20" width="375" height="200"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter the name of food" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7JZ-cD-Mvt">
+                                <rect key="frame" x="84" y="83" width="206" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="gr3-gu-Y3g"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qrv-bx-i9r">
+                                <rect key="frame" x="120" y="302" width="134" height="39"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="39" id="yra-EV-whM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Add food">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter name of food" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yjY-HV-mKC">
+                                <rect key="frame" x="16" y="235" width="343" height="43"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="yjY-HV-mKC" firstAttribute="leading" secondItem="N4Y-e8-I7I" secondAttribute="leadingMargin" id="5Af-7X-HF6"/>
+                            <constraint firstItem="qrv-bx-i9r" firstAttribute="top" secondItem="6ba-cc-1kd" secondAttribute="bottom" constant="82" id="5bx-Af-78v"/>
+                            <constraint firstItem="qrv-bx-i9r" firstAttribute="leading" secondItem="AX2-ZM-ujR" secondAttribute="leading" constant="120" id="GPW-dh-2If"/>
+                            <constraint firstItem="6ba-cc-1kd" firstAttribute="top" secondItem="AX2-ZM-ujR" secondAttribute="top" id="HMK-Fg-gE4"/>
+                            <constraint firstItem="6ba-cc-1kd" firstAttribute="trailing" secondItem="AX2-ZM-ujR" secondAttribute="trailing" id="Mhu-5D-azd"/>
+                            <constraint firstItem="qrv-bx-i9r" firstAttribute="top" secondItem="yjY-HV-mKC" secondAttribute="bottom" constant="24" id="SnY-nf-aYi"/>
+                            <constraint firstItem="6ba-cc-1kd" firstAttribute="leading" secondItem="N4Y-e8-I7I" secondAttribute="leading" id="Txg-kL-yzy"/>
+                            <constraint firstItem="7JZ-cD-Mvt" firstAttribute="top" secondItem="AX2-ZM-ujR" secondAttribute="top" constant="63" id="UhY-f9-Sql"/>
+                            <constraint firstItem="yjY-HV-mKC" firstAttribute="centerX" secondItem="qrv-bx-i9r" secondAttribute="centerX" id="Vyq-oc-oQ2"/>
+                            <constraint firstItem="6ba-cc-1kd" firstAttribute="centerX" secondItem="7JZ-cD-Mvt" secondAttribute="centerX" id="Xex-Y4-Wn5"/>
+                            <constraint firstItem="yjY-HV-mKC" firstAttribute="top" secondItem="6ba-cc-1kd" secondAttribute="bottom" constant="15" id="frI-o9-Xsp"/>
+                            <constraint firstItem="AX2-ZM-ujR" firstAttribute="bottom" secondItem="qrv-bx-i9r" secondAttribute="bottom" constant="326" id="qo8-Uh-Ibc"/>
+                            <constraint firstItem="7JZ-cD-Mvt" firstAttribute="centerX" secondItem="qrv-bx-i9r" secondAttribute="centerX" id="slb-FH-7T3"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="AX2-ZM-ujR"/>
+                    </view>
+                    <connections>
+                        <outlet property="newFoodImageView" destination="6ba-cc-1kd" id="XHA-Vp-krm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="k6c-Oq-3Iv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2612" y="148.87556221889056"/>
+        </scene>
         <!--Food Table View Controller-->
         <scene sceneID="B7M-9s-Vz1">
             <objects>
@@ -122,7 +240,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Food Item" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O3D-9P-BqZ">
-                                            <rect key="frame" x="16" y="11" width="77" height="21"/>
+                                            <rect key="frame" x="20" y="11" width="77" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -204,7 +322,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="z3P-dd-ZDi" userLabel="Cost Stack View">
-                                <rect key="frame" x="0.0" y="220" width="375" height="76.5"/>
+                                <rect key="frame" x="0.0" y="220.5" width="375" height="76.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="253" verticalHuggingPriority="251" text="Cost" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b0n-fA-mqQ">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="20.5"/>
@@ -262,6 +380,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="button-bg-manual" width="375" height="200"/>
+        <image name="button-bg-store" width="375" height="200"/>
         <image name="plus" width="16" height="16"/>
     </resources>
 </document>

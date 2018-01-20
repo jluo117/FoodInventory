@@ -42,8 +42,8 @@ class FoodTableViewController: UITableViewController {
     
     // MARK: Action
     @IBAction func addPressed(_ sender: Any) {
-        let addInventoryVC = storyboard?.instantiateViewController(withIdentifier: "addInventoryVC") as! Shop
-        present(addInventoryVC, animated: true, completion: nil)
+        let addInventoryVC = storyboard?.instantiateViewController(withIdentifier: "addFoodPickerVC") as! UIViewController
+        self.navigationController?.pushViewController(addInventoryVC, animated: true)
     }
     
 

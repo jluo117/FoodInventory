@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		723D7BBD2013F9AA000AFF72 /* FoodPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723D7BBC2013F9AA000AFF72 /* FoodPickerViewController.swift */; };
+		723D7BBF2013F9FF000AFF72 /* NewFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723D7BBE2013F9FF000AFF72 /* NewFoodViewController.swift */; };
 		7994E3AE2013D14200ACEA81 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7994E3AD2013D14200ACEA81 /* GoogleService-Info.plist */; };
 		7994E3B42013DDB000ACEA81 /* FoodTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7994E3B02013DDAF00ACEA81 /* FoodTableViewController.swift */; };
 		7994E3B52013DDB000ACEA81 /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7994E3B12013DDAF00ACEA81 /* ShopViewController.swift */; };
@@ -50,8 +52,10 @@
 		3DFEFF49908803F8F70F1BD4 /* Pods-FoodInventoryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodInventoryTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FoodInventoryTests/Pods-FoodInventoryTests.release.xcconfig"; sourceTree = "<group>"; };
 		468F924061146A351CD69B04 /* Pods_FoodInventoryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodInventoryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E375F287F6C483ADD17AC58 /* Pods-FoodInventoryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodInventoryTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FoodInventoryTests/Pods-FoodInventoryTests.debug.xcconfig"; sourceTree = "<group>"; };
+		723D7BBC2013F9AA000AFF72 /* FoodPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodPickerViewController.swift; sourceTree = "<group>"; };
+		723D7BBE2013F9FF000AFF72 /* NewFoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NewFoodViewController.swift; path = /Users/timothyng/Desktop/FoodInventory/FoodInventory/NewFoodViewController.swift; sourceTree = "<absolute>"; };
 		7994E3AD2013D14200ACEA81 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		7994E3AF2013DD5F00ACEA81 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Main.storyboard; path = /Users/jamesluo/Documents/Github/FoodInventory/FoodInventory/Main.storyboard; sourceTree = "<absolute>"; };
+		7994E3AF2013DD5F00ACEA81 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Main.storyboard; path = /Users/timothyng/Desktop/FoodInventory/FoodInventory/Main.storyboard; sourceTree = "<absolute>"; };
 		7994E3B02013DDAF00ACEA81 /* FoodTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodTableViewController.swift; sourceTree = "<group>"; };
 		7994E3B12013DDAF00ACEA81 /* ShopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
 		7994E3B22013DDAF00ACEA81 /* FoodTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodTableViewCell.swift; sourceTree = "<group>"; };
@@ -144,6 +148,8 @@
 				7994E3B22013DDAF00ACEA81 /* FoodTableViewCell.swift */,
 				7994E3B02013DDAF00ACEA81 /* FoodTableViewController.swift */,
 				7994E3B12013DDAF00ACEA81 /* ShopViewController.swift */,
+				723D7BBC2013F9AA000AFF72 /* FoodPickerViewController.swift */,
+				723D7BBE2013F9FF000AFF72 /* NewFoodViewController.swift */,
 				7994E3AF2013DD5F00ACEA81 /* Main.storyboard */,
 				79E58EE72013CF510065818B /* AppDelegate.swift */,
 				79E58EE92013CF510065818B /* ViewController.swift */,
@@ -490,8 +496,10 @@
 				79E58EEA2013CF510065818B /* ViewController.swift in Sources */,
 				7994E3B62013DDB000ACEA81 /* FoodTableViewCell.swift in Sources */,
 				7994E3B72013DDB000ACEA81 /* FoodDetailViewController.swift in Sources */,
+				723D7BBD2013F9AA000AFF72 /* FoodPickerViewController.swift in Sources */,
 				7994E3BB2013DECC00ACEA81 /* item.swift in Sources */,
 				7994E3B42013DDB000ACEA81 /* FoodTableViewController.swift in Sources */,
+				723D7BBF2013F9FF000AFF72 /* NewFoodViewController.swift in Sources */,
 				79E58EE82013CF510065818B /* AppDelegate.swift in Sources */,
 				7994E3B92013DDE600ACEA81 /* User.swift in Sources */,
 			);
