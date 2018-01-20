@@ -17,9 +17,8 @@ class User{
         ref.child("UserData").child("TestUser").observeSingleEvent(of: .value, with: {snapShot in
             // Get user value
             let value = snapShot.value as? NSDictionary
-            
-            print(value?["UserName"] as? String ?? "")
-            self.UserName = value?["UserName"] as? String ?? ""
+            let userInfo = value?["UserName"] as? String ?? ""
+            self.UserName = userInfo
         })
     }
 }
