@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7994E3AE2013D14200ACEA81 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7994E3AD2013D14200ACEA81 /* GoogleService-Info.plist */; };
+		7994E3B42013DDB000ACEA81 /* FoodTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7994E3B02013DDAF00ACEA81 /* FoodTableViewController.swift */; };
+		7994E3B52013DDB000ACEA81 /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7994E3B12013DDAF00ACEA81 /* ShopViewController.swift */; };
+		7994E3B62013DDB000ACEA81 /* FoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7994E3B22013DDAF00ACEA81 /* FoodTableViewCell.swift */; };
+		7994E3B72013DDB000ACEA81 /* FoodDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7994E3B32013DDB000ACEA81 /* FoodDetailViewController.swift */; };
+		7994E3B92013DDE600ACEA81 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7994E3B82013DDE600ACEA81 /* User.swift */; };
+		7994E3BB2013DECC00ACEA81 /* item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7994E3BA2013DECC00ACEA81 /* item.swift */; };
+		7994E3BC2013E32800ACEA81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7994E3AF2013DD5F00ACEA81 /* Main.storyboard */; };
 		79E58EE82013CF510065818B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E58EE72013CF510065818B /* AppDelegate.swift */; };
 		79E58EEA2013CF510065818B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E58EE92013CF510065818B /* ViewController.swift */; };
-		79E58EED2013CF510065818B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79E58EEB2013CF510065818B /* Main.storyboard */; };
 		79E58EEF2013CF510065818B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79E58EEE2013CF510065818B /* Assets.xcassets */; };
 		79E58EF22013CF510065818B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79E58EF02013CF510065818B /* LaunchScreen.storyboard */; };
 		79E58EFD2013CF510065818B /* FoodInventoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E58EFC2013CF510065818B /* FoodInventoryTests.swift */; };
 		79E58F082013CF520065818B /* FoodInventoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E58F072013CF520065818B /* FoodInventoryUITests.swift */; };
+		7CE6CE6C58554C7A785CCDC7 /* Pods_FoodInventoryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A8822E5B926D920BEDB1CF /* Pods_FoodInventoryTests.framework */; };
+		A1C75639A2DB02DEBBAB9427 /* Pods_FoodInventoryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 468F924061146A351CD69B04 /* Pods_FoodInventoryUITests.framework */; };
+		C802D73B555E7E5C0E28A1AF /* Pods_FoodInventory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A220DEBFF37426D26E2B3A4 /* Pods_FoodInventory.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +44,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A220DEBFF37426D26E2B3A4 /* Pods_FoodInventory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodInventory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3089F3E14F78149F08217AEB /* Pods-FoodInventoryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodInventoryUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FoodInventoryUITests/Pods-FoodInventoryUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3B45D64394FC0FAAA439F48F /* Pods-FoodInventory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodInventory.release.xcconfig"; path = "Pods/Target Support Files/Pods-FoodInventory/Pods-FoodInventory.release.xcconfig"; sourceTree = "<group>"; };
+		3DFEFF49908803F8F70F1BD4 /* Pods-FoodInventoryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodInventoryTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FoodInventoryTests/Pods-FoodInventoryTests.release.xcconfig"; sourceTree = "<group>"; };
+		468F924061146A351CD69B04 /* Pods_FoodInventoryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodInventoryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E375F287F6C483ADD17AC58 /* Pods-FoodInventoryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodInventoryTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FoodInventoryTests/Pods-FoodInventoryTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7994E3AD2013D14200ACEA81 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7994E3AF2013DD5F00ACEA81 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Main.storyboard; path = /Users/jamesluo/Documents/Github/FoodInventory/FoodInventory/Main.storyboard; sourceTree = "<absolute>"; };
+		7994E3B02013DDAF00ACEA81 /* FoodTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodTableViewController.swift; sourceTree = "<group>"; };
+		7994E3B12013DDAF00ACEA81 /* ShopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
+		7994E3B22013DDAF00ACEA81 /* FoodTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodTableViewCell.swift; sourceTree = "<group>"; };
+		7994E3B32013DDB000ACEA81 /* FoodDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodDetailViewController.swift; sourceTree = "<group>"; };
+		7994E3B82013DDE600ACEA81 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = User.swift; path = src/User.swift; sourceTree = "<group>"; };
+		7994E3BA2013DECC00ACEA81 /* item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = item.swift; path = src/item.swift; sourceTree = "<group>"; };
 		79E58EE42013CF510065818B /* FoodInventory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodInventory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79E58EE72013CF510065818B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79E58EE92013CF510065818B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		79E58EEC2013CF510065818B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		79E58EEE2013CF510065818B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79E58EF12013CF510065818B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79E58EF32013CF510065818B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +70,9 @@
 		79E58F032013CF520065818B /* FoodInventoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodInventoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79E58F072013CF520065818B /* FoodInventoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodInventoryUITests.swift; sourceTree = "<group>"; };
 		79E58F092013CF520065818B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84A8822E5B926D920BEDB1CF /* Pods_FoodInventoryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodInventoryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9556F2EEA93F55270C73726 /* Pods-FoodInventory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodInventory.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FoodInventory/Pods-FoodInventory.debug.xcconfig"; sourceTree = "<group>"; };
+		B2E3D4C801B7051757D7AB0F /* Pods-FoodInventoryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodInventoryUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FoodInventoryUITests/Pods-FoodInventoryUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C802D73B555E7E5C0E28A1AF /* Pods_FoodInventory.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CE6CE6C58554C7A785CCDC7 /* Pods_FoodInventoryTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +96,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1C75639A2DB02DEBBAB9427 /* Pods_FoodInventoryUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6EC6C62529A0BE7D3BF5FE34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A220DEBFF37426D26E2B3A4 /* Pods_FoodInventory.framework */,
+				84A8822E5B926D920BEDB1CF /* Pods_FoodInventoryTests.framework */,
+				468F924061146A351CD69B04 /* Pods_FoodInventoryUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		79E58EDB2013CF510065818B = {
 			isa = PBXGroup;
 			children = (
+				7994E3AD2013D14200ACEA81 /* GoogleService-Info.plist */,
 				79E58EE62013CF510065818B /* FoodInventory */,
 				79E58EFB2013CF510065818B /* FoodInventoryTests */,
 				79E58F062013CF520065818B /* FoodInventoryUITests */,
 				79E58EE52013CF510065818B /* Products */,
+				7FA9AF8EF6E87E87F47E0EE5 /* Pods */,
+				6EC6C62529A0BE7D3BF5FE34 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +139,18 @@
 		79E58EE62013CF510065818B /* FoodInventory */ = {
 			isa = PBXGroup;
 			children = (
+				7994E3B32013DDB000ACEA81 /* FoodDetailViewController.swift */,
+				7994E3BA2013DECC00ACEA81 /* item.swift */,
+				7994E3B22013DDAF00ACEA81 /* FoodTableViewCell.swift */,
+				7994E3B02013DDAF00ACEA81 /* FoodTableViewController.swift */,
+				7994E3B12013DDAF00ACEA81 /* ShopViewController.swift */,
+				7994E3AF2013DD5F00ACEA81 /* Main.storyboard */,
 				79E58EE72013CF510065818B /* AppDelegate.swift */,
 				79E58EE92013CF510065818B /* ViewController.swift */,
-				79E58EEB2013CF510065818B /* Main.storyboard */,
 				79E58EEE2013CF510065818B /* Assets.xcassets */,
 				79E58EF02013CF510065818B /* LaunchScreen.storyboard */,
 				79E58EF32013CF510065818B /* Info.plist */,
+				7994E3B82013DDE600ACEA81 /* User.swift */,
 			);
 			path = FoodInventory;
 			sourceTree = "<group>";
@@ -125,6 +173,19 @@
 			path = FoodInventoryUITests;
 			sourceTree = "<group>";
 		};
+		7FA9AF8EF6E87E87F47E0EE5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A9556F2EEA93F55270C73726 /* Pods-FoodInventory.debug.xcconfig */,
+				3B45D64394FC0FAAA439F48F /* Pods-FoodInventory.release.xcconfig */,
+				4E375F287F6C483ADD17AC58 /* Pods-FoodInventoryTests.debug.xcconfig */,
+				3DFEFF49908803F8F70F1BD4 /* Pods-FoodInventoryTests.release.xcconfig */,
+				3089F3E14F78149F08217AEB /* Pods-FoodInventoryUITests.debug.xcconfig */,
+				B2E3D4C801B7051757D7AB0F /* Pods-FoodInventoryUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +193,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 79E58F0C2013CF520065818B /* Build configuration list for PBXNativeTarget "FoodInventory" */;
 			buildPhases = (
+				20BD0354D70D41FF4E933B37 /* [CP] Check Pods Manifest.lock */,
 				79E58EE02013CF510065818B /* Sources */,
 				79E58EE12013CF510065818B /* Frameworks */,
 				79E58EE22013CF510065818B /* Resources */,
+				9B0108F399F90B19407DE65F /* [CP] Embed Pods Frameworks */,
+				9516D32BE56085F9D7771EE2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 79E58F0F2013CF520065818B /* Build configuration list for PBXNativeTarget "FoodInventoryTests" */;
 			buildPhases = (
+				F6CA5388A2A78A6496CFB1EA /* [CP] Check Pods Manifest.lock */,
 				79E58EF42013CF510065818B /* Sources */,
 				79E58EF52013CF510065818B /* Frameworks */,
 				79E58EF62013CF510065818B /* Resources */,
+				B6D001835264942F0FB80371 /* [CP] Embed Pods Frameworks */,
+				6824824081BD2D075F5AB8C8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +234,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 79E58F122013CF520065818B /* Build configuration list for PBXNativeTarget "FoodInventoryUITests" */;
 			buildPhases = (
+				597ACBA6B5B3BB5898E865C3 /* [CP] Check Pods Manifest.lock */,
 				79E58EFF2013CF520065818B /* Sources */,
 				79E58F002013CF520065818B /* Frameworks */,
 				79E58F012013CF520065818B /* Resources */,
+				4B156255FA77D1892D80FCC3 /* [CP] Embed Pods Frameworks */,
+				11EDC857A82E106342E2CACA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,8 +303,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				79E58EF22013CF510065818B /* LaunchScreen.storyboard in Resources */,
+				7994E3AE2013D14200ACEA81 /* GoogleService-Info.plist in Resources */,
 				79E58EEF2013CF510065818B /* Assets.xcassets in Resources */,
-				79E58EED2013CF510065818B /* Main.storyboard in Resources */,
+				7994E3BC2013E32800ACEA81 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +325,175 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		11EDC857A82E106342E2CACA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FoodInventoryUITests/Pods-FoodInventoryUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		20BD0354D70D41FF4E933B37 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoodInventory-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B156255FA77D1892D80FCC3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FoodInventoryUITests/Pods-FoodInventoryUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		597ACBA6B5B3BB5898E865C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoodInventoryUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6824824081BD2D075F5AB8C8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FoodInventoryTests/Pods-FoodInventoryTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9516D32BE56085F9D7771EE2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FoodInventory/Pods-FoodInventory-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B0108F399F90B19407DE65F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FoodInventory/Pods-FoodInventory-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FoodInventory/Pods-FoodInventory-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6D001835264942F0FB80371 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FoodInventoryTests/Pods-FoodInventoryTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6CA5388A2A78A6496CFB1EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoodInventoryTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		79E58EE02013CF510065818B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7994E3B52013DDB000ACEA81 /* ShopViewController.swift in Sources */,
 				79E58EEA2013CF510065818B /* ViewController.swift in Sources */,
+				7994E3B62013DDB000ACEA81 /* FoodTableViewCell.swift in Sources */,
+				7994E3B72013DDB000ACEA81 /* FoodDetailViewController.swift in Sources */,
+				7994E3BB2013DECC00ACEA81 /* item.swift in Sources */,
+				7994E3B42013DDB000ACEA81 /* FoodTableViewController.swift in Sources */,
 				79E58EE82013CF510065818B /* AppDelegate.swift in Sources */,
+				7994E3B92013DDE600ACEA81 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +529,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		79E58EEB2013CF510065818B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				79E58EEC2013CF510065818B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		79E58EF02013CF510065818B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -424,6 +649,7 @@
 		};
 		79E58F0D2013CF520065818B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9556F2EEA93F55270C73726 /* Pods-FoodInventory.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +665,7 @@
 		};
 		79E58F0E2013CF520065818B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B45D64394FC0FAAA439F48F /* Pods-FoodInventory.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +681,7 @@
 		};
 		79E58F102013CF520065818B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E375F287F6C483ADD17AC58 /* Pods-FoodInventoryTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +699,7 @@
 		};
 		79E58F112013CF520065818B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DFEFF49908803F8F70F1BD4 /* Pods-FoodInventoryTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +717,7 @@
 		};
 		79E58F132013CF520065818B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3089F3E14F78149F08217AEB /* Pods-FoodInventoryUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +734,7 @@
 		};
 		79E58F142013CF520065818B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2E3D4C801B7051757D7AB0F /* Pods-FoodInventoryUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
