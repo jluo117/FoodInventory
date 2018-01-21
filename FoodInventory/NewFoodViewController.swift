@@ -19,7 +19,14 @@ class NewFoodViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-
+    
+    @IBOutlet weak var Newfood: UITextField!
+    @IBAction func AddFood(_ sender: UIButton) {
+        var newItem = UserItem(ItemName: Newfood.text!, WarningNumber: 5)
+        CurUser.UserItems.append(newItem)
+        var test = CurUser.UserItems
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

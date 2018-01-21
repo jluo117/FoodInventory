@@ -25,7 +25,7 @@ class FoodPickerViewController: UIViewController {
         let newFoodVC = storyboard?.instantiateViewController(withIdentifier: "newFoodVC") as! NewFoodViewController
         newFoodVC.addFoodMethodImage = UIImage(named: "button-bg-manual")
         
-       self.navigationController?.pushViewController(newFoodVC, animated: true)
+      present(newFoodVC, animated: true, completion: nil)
     }
     
     @IBAction func storePressed(_ sender: Any) {
@@ -33,7 +33,7 @@ class FoodPickerViewController: UIViewController {
         let newFoodVC = storyboard?.instantiateViewController(withIdentifier: "newFoodVC") as! NewFoodViewController
         newFoodVC.addFoodMethodImage = UIImage(named: "button-bg-store")
         
-       self.navigationController?.pushViewController(newFoodVC, animated: true)
+       present(newFoodVC, animated: true, completion: nil)
         
         
     }
