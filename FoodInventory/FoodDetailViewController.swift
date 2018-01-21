@@ -13,14 +13,18 @@ class FoodDetailViewController: UIViewController {
     // MARK: Properties
     var foodName: String!
     
+    @IBOutlet weak var Remaining: UILabel!
     // MARK: Outlets
 
+    @IBOutlet weak var Cost: UILabel!
     @IBOutlet weak var buyButton: UIButton!
     
     // MARK: Life cycle
     override func viewWillAppear(_ animated: Bool) {
        super.viewWillAppear(animated)
        self.navigationItem.title = foodName
+        Remaining.text = String(CurUser.UserItems[CurIndex].ItemCount)
+        Cost.text = String(CurUser.UserItems[CurIndex].Cost)
     }
     
     // MARK: Action

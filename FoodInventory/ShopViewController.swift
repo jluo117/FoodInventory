@@ -15,7 +15,7 @@ class Shop: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         inCart.text = "0"
-        Price.text = "0"
+        Price.text = String(CurUser.UserItems[CurIndex].Cost)
         Cart.text = "0"
         // Do any additional setup after loading the view.
     }
